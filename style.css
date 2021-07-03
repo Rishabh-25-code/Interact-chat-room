@@ -1,0 +1,37 @@
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(181, 238, 255);
+}
+
+#message-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: rgb(181, 238, 255);
+    /* animation: mymove 20s infinite; */
+}
+
+#send-container {
+    display: flex;
+    justify-content: center;
+}
+
+#message-input {
+    width: 20%;
+    background-color: teal;
+}
+
+
+/* @keyframes mymove {
+    from {
+        background-color: rgb(178, 124, 228);
+    }
+    to {
+        background-color: rgb(7, 231, 183);
+    }
+} */
