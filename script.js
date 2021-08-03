@@ -20,7 +20,7 @@ socket.on('user-disconnected', name => {
     appendMessage(`${name} disconnected !!`)
 })
 
-messageForm.on('submit', e => {
+messageForm.addEventListener('submit', e => {
     e.preventDefault()
     const message = messageInput.value
     appendMessage(`You: ${message}`)
